@@ -2,7 +2,6 @@ from typing import List
 
 
 class TimeStreamDataWriter:
-    client = None
 
     def __init__(self, client) -> None:
         self.client = client
